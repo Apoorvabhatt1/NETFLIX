@@ -1,0 +1,151 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dd7676; /* Light gray background */
+}
+
+/* Header styles */
+header {
+  background-color: #000000; /* Black header background */
+  color: #fff; /* White text color */
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff; /* White text color for links */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Logo styles */
+.netflix-logo {
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Pitch section styles */
+#pitch {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#pitch h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#pitch p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#pitch button {
+  background-color: #e50914; /* Netflix red */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Features section styles */
+#features {
+  padding: 40px;
+}
+
+#features section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#features a {
+  text-decoration: none;
+  color: #120101; /* Dark gray text color */
+  text-align: center;
+}
+
+#features img {
+  height: 100px; /* Adjust the height as needed */
+  margin-bottom: 10px;
+}
+
+#features h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#features p {
+  font-size: 16px;
+}
+
+/* Article section styles */
+article {
+  padding: 40px;
+}
+
+article section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+article section > div {
+  flex-basis: 50%;
+}
+
+article section img {
+  max-width: 100%;
+  height: auto;
+}
+
+article section button {
+  background-color: #e50914; /* Netflix red */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #fcfafa; /* Black footer background */
+  color: #fff; /* White text color */
+  padding: 40px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff; /* White text color for links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Language selection styles */
+#lang-selection select {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Company text styles */
+#company {
+  font-size: 16px;
+  margin-top: 20px;
+}
